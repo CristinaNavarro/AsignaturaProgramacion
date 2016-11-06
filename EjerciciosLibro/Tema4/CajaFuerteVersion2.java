@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class CajaFuerte {
   public static void main (String[] args){
     Scanner teclado = new Scanner(System.in);
-    int numerocuatrocifras=0000;
+    int numerocuatrocifras=0;
     
     for(int contador=0;contador<4;contador++){
       System.out.println("Introduzca un número de cuatro cifras");
