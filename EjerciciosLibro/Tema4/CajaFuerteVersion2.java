@@ -11,7 +11,7 @@ public class CajaFuerte {
       if (numerocuatrocifras!=1337){
         System.out.println("Lo siento, esa no es la combinación");
       }else{
-        System.out.print("La caja fuerte se ha abierto satisfactoriamente");
+        System.out.print("La caja fuerte se ha abierto satisfactoriamente.");
         break;
       }
     }
