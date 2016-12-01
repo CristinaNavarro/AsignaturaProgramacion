@@ -6,7 +6,7 @@ public class i1i26Colina {
     int numeroTotal;
     System.out.println("Introduzca la altura: ");
     numeroTotal = teclado.nextInt();
-    
+    //////////////////////////////////////////////
     int numEspacios=numeroTotal-1;
     for (int i=1;i<=numeroTotal;i++){
       for (int z=0; z<=numEspacios; z++) {
@@ -15,7 +15,7 @@ public class i1i26Colina {
       for (int j=0;j<numeroAst;j++){
         System.out.print("*");
       }
-      
+    //////////////////////////////////////////
       numeroAst += 2;
       numEspacios--;
       System.out.print("\n");
